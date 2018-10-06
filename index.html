@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mr.burger</title>
+	<meta name="description" content="Мистер Бургер - ресторан авторской кухни">
+	<meta name="keywords" content="burrger, ресторан, бургеры, десерты">
+	<link rel="icon" href="img/favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<header class="header" id="header">
+		<!-- mobile menu -->
+			<a href="#mobile_menu" class="menu-link">
+				<span></span>
+			</a>
+			<div class="mobile__menu ">
+				<ul class="mobile_menu_list">
+					<li>
+						<a href="#header">Main</a>
+					</li>
+					<li>
+						<a href="#menu">Our Menu</a>
+					</li>
+					<li>
+						<a href="#sales">Special Offer</a>
+					</li>
+					<li>
+						<a href="#maps">Map</a>
+					</li>
+				</ul>
+			</div> 
+						<!-- mobile menu end -->
+		<div class="head">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-5 col-sm-5">
+						<div class="logo">
+							Mr.Burger
+						</div>
+					</div>
+					<div class="col-lg-6 d-none d-lg-block">
+						<nav>
+							<ul class="main_menu d-flex">
+								<li>
+									<a href="#header">Main</a>
+								</li>
+								<li>
+									<a href="#menu">Our Menu</a>
+								</li>
+								<li>
+									<a href="#sales">Special Offer</a>
+								</li>
+								<li>
+									<a href="#maps">Map</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-lg-3 col-md-7 col-sm-7 d-none d-sm-block">
+						<div class="contacts d-flex">
+							<div class="phone__wrapper">
+								<i class="fas fa-phone call"></i>
+							</div>
+							<div class="phones">
+								<div class="phone">+380939876531</div>
+								<div class="phone">+380959876531</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- modal start -->
+			<div class="overlay">
+				<div class="popup">
+					<div class="popup__title">
+						Fill out this form to reserve a table 
+					</div>
+					<div class="popup__close">
+						<i class="fas fa-times"></i>
+					</div>
+					<div class="form__scroll">
+					<form action="smart.php" method="POST" class="booking__form">
+						<label for="name">Your Name</label>
+						<input type="text" class="booking__input" id="name" placeholder="Your name"> <br>
+						<label for="tel">Your phone</label>
+						<input type="tel" id="tel" class="booking__input" placeholder="+380** *** ** **"> <br>
+						<label for="date">Date</label>
+						<input type="date" id="date" class="booking__input" name="date"> <br>
+						<label for="time">Time</label>
+						<input type="time" id="time" class="booking__input" name="time"> <br>
+						<button class="button button_act">
+							Book now
+						</button>
+					</form>
+					</div>
+				
+				</div>
+			</div>
+			<!-- ..........modal end........... -->
+			
+		</div>
+		<div class="main">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="heading__wrapper">
+							<h1 class="heading">
+								Mister Burger
+							</h1>
+							<div class="heading__description">
+								House specialty cuisine
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="advantage__item">
+							<img src="img/circle1.png" alt="" class="advantage__img">
+							<h3 class="advantage__heading">
+								Fresh ingredients
+							</h3>
+							<p class="advantage__description">
+								To prepare our dishes we use only fresh ingredients
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="advantage__item">
+							<img src="img/circle2.png" alt="" class="advantage__img">
+							<h3 class="advantage__heading">
+								Delicious deserts
+							</h3>
+							<p class="advantage__description">
+								Wide choose of desserts for every taste
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="advantage__item">
+							<img src="img/circle3.png" alt="" class="advantage__img">
+							<h3 class="advantage__heading">
+								Unique recipes
+							</h3>
+							<p class="advantage__description">
+								Meals in our restaurant are prepared according to unique recipes, which we keep in strict confidence.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="arrow__wrap">
+							<a href="#menu" class="arrow">
+								<i class="fas fa-chevron-down"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /.main -->
+	</header>
+	<section class="menu" id="menu">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h2 class="menu__head">
+						Our Menu
+					</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="menu__item">
+						<img src="img/menu1.png" alt="" class="menu__image">
+						<h3 class="menu__heading">
+							Main Menu
+						</h3>
+						<div class="menu__description">
+							Wide selection of salads, snacks, drinks, meat and poultry dishes, soups, side dishes and sauces, steaks, breakfasts<br> in our menu
+						</div>
+						<a href="#" class="button">
+							Show
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="menu__item">
+						<img src="img/menu2.png" alt="" class="menu__image">
+						<h3 class="menu__heading">
+							Deserts
+						</h3>
+						<div class="menu__description">
+							Cheesecakes, pastries, macarons, tiramisu, puddings, muffins, muffins, souffles, mousses and other desserts, as well as coffee and tea cards
+						</div>
+						<a href="#" class="button">
+							Show
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="menu__item">
+						<img src="img/menu3.png" alt="" class="menu__image">
+						<h3 class="menu__heading">
+							Burgers
+						</h3>
+						<div class="menu__description">
+							Classic Hamburger, Cheeseburger, Steakhouse Burger, NewYork Burger, Chicken Burger, Black Burger, Burger 4 Cheese and others in our menu
+						</div>
+						<a href="#" class="button">
+							Show
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="news">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h2>
+						Newsletter
+					</h2>
+					<div class="news__heading">
+						Subscribe to our newsletter to try the new dish first ! 
+					</div>
+					<form action="#" class="subscribe">
+						<input type="email" class="input__item" placeholder="Your e-mail">
+						<button class="button">Subscribe</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	
+</section>
+	<section class="sales" id="sales">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h2 class="sales__head">
+						Special offer
+					</h2>
+				</div>
+			</div>
+			<div class="row align-items-center">
+				<div class="col-lg-6 col-md-6">
+					<div class="sale__item wow fadeInLeft">
+						<h3 class="sale__heading">
+							Burger-Set
+						</h3>
+						<p class="sale__descrription">
+							With ordering any burger from the menu, you get French fries and a drink of your choice as a gift.
+						</p>
+						<p class="sale__descrription">
+							For details check with the waiters.
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<img src="img/set.jpg" alt="" class="sales__image wow fadeInRight">
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<img src="img/cake.jpg" alt="" class="sales__image wow fadeInUp">
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="sale__item wow fadeInDown">
+						<h3 class="sale__heading">
+							Buy a dessert - coffee for free!
+						</h3>
+						<p class="sale__descrription">
+							When ordering any dessert from the menu, you get coffee or tea as a gift! When you buy dessert from 12.00 to 18.00, you can get a choice a cup of Espresso or tea of your choice.
+						</p>
+						<p class="sale__descrription">
+							For details check with the waiters.
+						</p>
+						<div class="button button_act call">Reserve a table</div> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="maps" id="maps">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="contacts__container">
+						<h3 class="contacts__title">
+							Contacts
+						</h3>
+						<div class="contacts__heading">
+							<span><i class="fas fa-map-marker"></i></span>
+							Address
+						</div>
+						<div class="contacts__description">
+							Goncharenko street, 87, Zaporizhzhya
+						</div>
+						<div class="contacts__heading">
+							<span><i class="fas fa-clock"></i></span>
+							Working hours
+						</div>
+						<div class="contacts__description">
+							From 9:00 Till 23:00 <br>
+							Sat,Sun From 10:00 Till 24:00
+						</div>
+							<div class="contacts__heading">
+							<span><i class="fas fa-phone"></i></span>
+							Phone
+						</div>
+						<div class="contacts__description">
+							+380939876531 <br>
+							+380959876531
+						</div>
+							<div class="contacts__heading">
+								<span><i class="fas fa-envelope"></i></span>
+							Mail
+						</div>
+						<div class="contacts__description">
+							burger@mr.com
+						</div>
+					</div>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2677.8612812409956!2d35.115099215550245!3d47.842280679200975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dc60d2d04d3d99%3A0x899cf9592b1edeba!2z0YPQu9C40YbQsCDQnNC40YXQsNC40LvQsCDQk9C-0L3Rh9Cw0YDQtdC90LrQsCwgMjksINCX0LDQv9C-0YDQvtC20YzQtSwg0JfQsNC_0L7RgNC-0LbRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNjkwMDA!5e0!3m2!1sru!2sua!4v1524511835667" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-3">
+					<div class="logo">
+						Mr.Burger
+					</div>
+					<div class="credits">
+						2018 All rights reserved
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-5">
+					<a href="#header" class="ontop button">On top</a>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="social">
+						Social: <br>
+						<span>
+							<a href="https://www.facebook.com/">
+								<i class="fab fa-facebook-square"></i>
+							</a>
+							<a href="https://www.instagram.com">
+								<i class="fab fa-instagram"></i>
+							</a>
+						
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/wow.min.js"></script>
+</body>
+</html>
